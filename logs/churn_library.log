@@ -1,0 +1,1401 @@
+06/10/23 10:08:25 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/10/23 10:08:25 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/10/23 10:08:25 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/10/23 10:08:25 PM root INFO - SUCCESS: "encoder_helper" method has a valid DataFrame argument
+06/10/23 10:08:25 PM root INFO - SUCCESS: all provided column names in "category_lst" were of type String
+06/10/23 10:08:25 PM root INFO - SUCCESS: all provided column names in "response" were of type String
+06/10/23 10:08:25 PM root INFO - SUCCESS: "category_lst" and "response" lists were matched
+06/10/23 10:08:25 PM root INFO - SUCCESS: perform_eda method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/10/23 10:08:25 PM root INFO - SUCCESS: All provided columns names are valid
+06/10/23 10:08:26 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/10/23 10:08:26 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/10/23 10:08:26 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/10/23 10:08:27 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/10/23 10:08:27 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/10/23 10:08:27 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/10/23 10:08:27 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/10/23 10:08:28 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/10/23 10:08:28 PM root INFO - SUCCESS: EDA operation - ploting box plot titled: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/10/23 10:08:29 PM root INFO - SUCCESS: EDA operation - ploting box plot titled: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/10/23 10:08:29 PM root INFO - SUCCESS: EDA operation - ploting join plot titled: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/10/23 10:08:31 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/10/23 10:08:31 PM root INFO - SUCCESS: Performing EDA operations
+06/10/23 10:08:31 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/10/23 10:08:31 PM root INFO - x_train data shape: (7088, 22)
+06/10/23 10:08:31 PM root INFO - y_train data shape: (7088,)
+06/10/23 10:08:31 PM root INFO - x_test data shape: (3039, 22)
+06/10/23 10:08:31 PM root INFO - y_test data shape: (3039,)
+06/10/23 10:08:31 PM root INFO - SUCCESS: Performing feature engineering operations
+06/10/23 10:08:33 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 1.0 - 1.0
+06/10/23 10:08:33 PM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/10/23 10:08:33 PM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/10/23 10:08:33 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/10/23 10:08:33 PM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/10/23 10:08:33 PM root INFO - SUCCESS: Trained Random Forest Classifier
+06/10/23 10:08:34 PM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/10/23 10:08:35 PM root INFO - SUCESS: Computing feature importances for Random Forest model
+06/10/23 10:26:42 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/10/23 10:26:42 PM root INFO - TESTING import_data
+06/10/23 10:27:22 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/10/23 10:27:22 PM root INFO - TESTING: 'import_data' method
+06/10/23 10:29:35 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/10/23 10:29:35 PM root INFO - TESTING: 'import_data' method
+06/10/23 10:40:17 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/10/23 10:40:17 PM root INFO - TESTING: 'import_data' method
+06/11/23 07:20:40 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:20:40 PM root INFO - TESTING: 'import_data' method
+06/11/23 07:21:20 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:21:20 PM root INFO - TESTING: 'import_data' method
+06/11/23 07:21:20 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:21:20 PM root INFO - SUCCESS - [Testing import_data]: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:21:20 PM root INFO - SUCCESS - [Testing import_data]: the method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:21:43 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:21:43 PM root INFO - TESTING: 'import_data' method
+06/11/23 07:21:43 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:21:43 PM root INFO - SUCCESS - [Testing import_data]: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:21:43 PM root INFO - SUCCESS - [Testing import_data]: the method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:21:43 PM root ERROR - ERROR - [Testing import_data]: The dataframe doesn't contain Churn column
+06/11/23 07:23:50 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:23:50 PM root INFO - TESTING: 'import_data' method
+06/11/23 07:23:50 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:23:50 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:23:50 PM root INFO - [Testing import_data] SUCCESS: the method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:23:50 PM root INFO - [Testing import_data] SUCCESS:  Churn column is found
+06/11/23 07:35:17 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:35:17 PM root INFO -  [### Testing import_data method ###]
+06/11/23 07:35:17 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:35:17 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:35:17 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:35:17 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 07:35:17 PM root INFO -  [### Testing test_eda method ###]
+06/11/23 07:35:17 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:35:18 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 07:35:18 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 07:35:18 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:35:19 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:35:19 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 07:36:55 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:36:55 PM root INFO -  [### Testing import_data method ###]
+06/11/23 07:36:55 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:36:55 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:36:55 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:36:55 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 07:36:55 PM root INFO -  [### Testing test_eda method ###]
+06/11/23 07:36:55 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:36:55 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 07:36:55 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 07:36:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:36:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:36:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 07:37:24 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:37:24 PM root INFO -  [### Testing import_data method ###]
+06/11/23 07:37:24 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:37:24 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:37:24 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:37:24 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 07:37:24 PM root INFO -  [### Testing test_eda method ###]
+06/11/23 07:37:24 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:37:24 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 07:37:24 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 07:37:25 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:37:25 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:37:25 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 07:37:26 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 07:37:26 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 07:37:26 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 07:37:26 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 07:37:27 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 07:37:28 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 07:37:28 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 07:37:28 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 07:39:02 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:39:02 PM root INFO -  [### Testing import_data method ###]
+06/11/23 07:39:02 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:39:02 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:39:02 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:39:02 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 07:39:02 PM root INFO -  [### Testing test_eda method ###]
+06/11/23 07:39:02 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:39:02 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 07:39:02 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 07:39:03 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:39:03 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:39:03 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 07:39:03 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 07:39:04 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 07:39:04 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 07:39:04 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 07:39:05 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 07:39:05 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 07:39:06 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 07:39:06 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 07:39:06 PM root INFO - [Testing perform_eda] SUCCESS:  All provided columns names are valid
+06/11/23 07:57:29 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:57:29 PM root INFO - [### Testing import_data method ###]
+06/11/23 07:58:25 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 07:58:25 PM root INFO - [### Testing import_data method ###]
+06/11/23 07:58:25 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:58:25 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:58:25 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 07:58:25 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 07:58:25 PM root INFO - [### ---| Complete Testing |--- ###]
+06/11/23 07:58:25 PM root INFO - [### Testing test_eda method ###]
+06/11/23 07:58:25 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 07:58:25 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 07:58:25 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 07:58:26 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:58:26 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 07:58:26 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 07:58:27 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 07:58:27 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 07:58:27 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 07:58:27 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 07:58:28 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 07:58:29 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 07:58:29 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 07:58:29 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 07:58:29 PM root INFO - [Testing perform_eda] SUCCESS:  All provided columns names are valid
+06/11/23 07:58:29 PM root INFO - [### ---| Complete Testing |--- ###]
+06/11/23 07:58:29 PM root INFO - [### Testing test_eda method ###]
+06/11/23 07:58:29 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:00:58 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 08:00:58 PM root INFO - [### Testing import_data method ###]
+06/11/23 08:00:58 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:00:58 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:00:58 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 08:00:58 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 08:00:58 PM root INFO - [### ---| Complete Testing |--- ###]
+06/11/23 08:00:58 PM root INFO - [### Testing test_eda method ###]
+06/11/23 08:00:58 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:00:58 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 08:00:59 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 08:00:59 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:00:59 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:01:00 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 08:01:00 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 08:01:00 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 08:01:00 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 08:01:01 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 08:01:01 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 08:01:02 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 08:01:03 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 08:01:03 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 08:01:03 PM root INFO - [Testing perform_eda] SUCCESS:  All provided columns names are valid
+06/11/23 08:01:03 PM root INFO - [### ---| Complete Testing |--- ###]
+06/11/23 08:01:03 PM root INFO - [### Testing test_eda method ###]
+06/11/23 08:01:03 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:02:04 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 08:02:04 PM root INFO - [### Testing import_data method ###]
+06/11/23 08:02:04 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:02:04 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:02:04 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 08:02:04 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 08:02:04 PM root INFO - [### ---| Complete Testing |--- ###]
+06/11/23 08:02:04 PM root INFO - [### Testing test_eda method ###]
+06/11/23 08:02:04 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:02:05 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 08:02:05 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 08:02:05 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:02:06 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:02:06 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 08:02:06 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 08:02:06 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 08:02:07 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 08:02:07 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 08:02:07 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 08:02:08 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 08:02:09 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 08:02:09 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 08:02:09 PM root INFO - [Testing perform_eda] SUCCESS:  All provided columns names are valid
+06/11/23 08:02:09 PM root INFO - [### ---| Complete Testing |--- ###]
+06/11/23 08:02:09 PM root INFO - [### Testing test_eda method ###]
+06/11/23 08:02:09 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:02:09 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 08:02:09 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 08:02:09 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 08:02:09 PM root INFO - [### ---| Complete Testing |--- ###]
+06/11/23 08:03:27 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 08:03:27 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 08:03:27 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:03:27 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:03:27 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 08:03:27 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 08:03:27 PM root INFO - [### Complete Testing ###]
+06/11/23 08:03:27 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 08:03:27 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:03:28 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 08:03:28 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 08:03:28 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:03:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:03:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 08:03:29 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 08:03:29 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 08:03:30 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 08:03:30 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 08:03:30 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 08:03:31 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 08:03:32 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 08:03:32 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 08:03:32 PM root INFO - [Testing perform_eda] SUCCESS:  All provided columns names are valid
+06/11/23 08:03:32 PM root INFO - [### Complete Testing ###]
+06/11/23 08:03:32 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 08:03:32 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:03:32 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 08:03:32 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 08:03:32 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 08:03:32 PM root INFO - [### Complete Testing ###]
+06/11/23 08:04:32 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 08:04:32 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 08:04:32 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:04:32 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:04:32 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 08:04:32 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 08:04:32 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 08:04:32 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 08:04:32 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:04:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 08:04:33 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 08:04:33 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:04:33 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:04:34 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 08:04:34 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 08:04:34 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 08:04:34 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 08:04:35 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 08:04:35 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 08:04:36 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 08:04:37 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 08:04:37 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 08:04:37 PM root INFO - [Testing perform_eda] SUCCESS:  All provided columns names are valid
+06/11/23 08:04:37 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 08:04:37 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 08:04:37 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:04:37 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 08:04:37 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 08:04:37 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 08:04:37 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 08:18:39 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 08:18:39 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 08:18:39 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:18:39 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:18:39 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 08:18:39 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 08:18:39 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 08:18:39 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 08:18:39 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:18:39 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 08:18:40 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 08:18:40 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:18:40 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:18:41 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 08:18:41 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 08:18:41 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 08:18:41 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 08:18:42 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 08:18:42 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 08:18:43 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 08:18:44 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 08:18:44 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 08:18:44 PM root INFO - [Testing perform_eda] SUCCESS: All provided columns names are valid
+06/11/23 08:18:44 PM root INFO - [Testing perform_eda] SUCCESS: EDA images folder does exist
+06/11/23 08:18:44 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 08:18:44 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 08:18:44 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:18:44 PM root INFO - [Testing test_encoder_helper] SUCCESS: the function is working as expected
+06/11/23 08:18:44 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 08:18:44 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 08:18:44 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 08:18:44 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 08:20:42 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 08:20:42 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 08:20:42 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:20:42 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:20:42 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 08:20:42 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 08:20:42 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 08:20:42 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 08:20:42 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:20:43 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 08:20:43 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 08:20:43 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:20:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 08:20:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 08:20:44 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 08:20:44 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 08:20:45 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 08:20:45 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 08:20:45 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 08:20:46 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 08:20:47 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 08:20:47 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 08:20:47 PM root INFO - [Testing perform_eda] SUCCESS: All provided columns names are valid
+06/11/23 08:20:47 PM root INFO - [Testing perform_eda] SUCCESS: EDA images folder existed
+06/11/23 08:20:47 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 08:20:47 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 08:20:47 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 08:20:47 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 08:20:47 PM root INFO - [Testing test_encoder_helper] SUCCESS: the function is working as expected
+06/11/23 08:20:47 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 08:20:47 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 08:20:47 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 08:20:47 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:07:43 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:07:43 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:07:43 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:07:43 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:07:43 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:07:43 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 09:07:43 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:07:43 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:07:43 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:07:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:07:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:07:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:07:45 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:07:45 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:07:45 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:07:46 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:07:46 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:07:46 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:07:47 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:07:47 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:07:48 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:07:48 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 09:07:48 PM root INFO - [Testing perform_eda] SUCCESS: All provided columns names are valid
+06/11/23 09:07:48 PM root INFO - [Testing perform_eda] SUCCESS: EDA images folder existed
+06/11/23 09:07:48 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:07:48 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:07:48 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:07:48 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:07:48 PM root INFO - [Testing test_encoder_helper] SUCCESS: the function is working as expected
+06/11/23 09:07:48 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:07:48 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:07:48 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:07:48 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:08:28 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:08:28 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:08:28 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:08:28 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:08:28 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:08:28 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 09:08:28 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:08:28 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:08:28 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:08:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:08:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:08:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:08:30 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:08:30 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:08:30 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:08:31 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:08:31 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:08:31 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:08:32 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:08:32 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:08:33 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:08:33 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 09:08:33 PM root INFO - [Testing perform_eda] SUCCESS: All provided columns names are valid
+06/11/23 09:08:33 PM root INFO - [Testing perform_eda] SUCCESS: EDA images folder existed
+06/11/23 09:08:33 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:08:33 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:08:33 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:08:33 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:08:33 PM root INFO - [Testing test_encoder_helper] SUCCESS: the function is working as expected
+06/11/23 09:08:33 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:08:33 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:08:33 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:08:33 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:10:01 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:10:01 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:10:01 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:10:01 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:10:01 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:10:01 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 09:10:01 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:10:01 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:10:01 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:10:01 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:10:01 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:10:02 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:10:02 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:10:03 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:10:03 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:10:03 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:10:03 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:10:03 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:10:04 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:10:05 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:10:06 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:10:06 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 09:10:06 PM root INFO - [Testing perform_eda] SUCCESS: All provided columns names are valid
+06/11/23 09:10:06 PM root INFO - [Testing perform_eda] SUCCESS: EDA images folder existed
+06/11/23 09:10:06 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:10:06 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:10:06 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:10:06 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:10:06 PM root INFO - [Testing test_encoder_helper] SUCCESS: the function is working as expected
+06/11/23 09:10:06 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:10:06 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:10:06 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:10:06 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:11:31 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:11:31 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:11:31 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:11:31 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:11:31 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:11:31 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 09:11:31 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:11:31 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:11:31 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:11:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:11:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:11:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:11:33 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:11:33 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:11:33 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:11:33 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:11:34 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:11:34 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:11:34 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:11:35 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:11:36 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:11:36 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 09:11:36 PM root INFO - [Testing perform_eda] SUCCESS: All provided columns names are valid
+06/11/23 09:11:36 PM root INFO - [Testing perform_eda] SUCCESS: EDA images folder existed
+06/11/23 09:11:36 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:11:36 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:11:36 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:11:36 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:11:36 PM root INFO - [Testing test_encoder_helper] SUCCESS: the function is working as expected
+06/11/23 09:11:36 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:11:36 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:11:36 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:11:36 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:11:36 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:11:36 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:11:36 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:11:36 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:11:36 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:11:36 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:11:36 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:11:36 PM root ERROR - [Testing test_perform_feature_engineering] SUCCESS: the function is working as expected
+06/11/23 09:11:36 PM root ERROR - [Testing test_perform_feature_engineering] SUCCESS: required culomns were dropped
+06/11/23 09:11:36 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:13:55 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:13:55 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:13:55 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:13:55 PM root INFO - [Testing import_data] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:13:55 PM root INFO - [Testing import_data] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:13:55 PM root INFO - [Testing import_data] SUCCESS: Churn column is found
+06/11/23 09:13:55 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:13:55 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:13:55 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:13:55 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:13:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:13:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:13:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:13:57 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:13:57 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:13:57 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:13:57 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:13:58 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:13:58 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:13:59 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:14:00 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:14:00 PM root INFO - [Testing perform_eda] SUCCESS: the function is working as expected
+06/11/23 09:14:00 PM root INFO - [Testing perform_eda] SUCCESS: All provided columns names are valid
+06/11/23 09:14:00 PM root INFO - [Testing perform_eda] SUCCESS: EDA images folder existed
+06/11/23 09:14:00 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:14:00 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:14:00 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:14:00 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:14:00 PM root INFO - [Testing test_encoder_helper] SUCCESS: the function is working as expected
+06/11/23 09:14:00 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:14:00 PM root INFO - [Testing test_encoder_helper] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:14:00 PM root INFO - [Testing test_encoder_helper] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:14:00 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:14:00 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:14:00 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:14:00 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:14:00 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:14:00 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:14:00 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:14:00 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:14:00 PM root ERROR - [Testing test_perform_feature_engineering] SUCCESS: the function is working as expected
+06/11/23 09:14:00 PM root ERROR - [Testing test_perform_feature_engineering] SUCCESS: required culomns were dropped
+06/11/23 09:14:00 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:19:30 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:19:30 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:19:30 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:19:30 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:19:30 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:19:30 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:19:30 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:19:30 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:19:30 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:19:31 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:19:31 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:19:31 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:19:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:19:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:19:32 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:19:32 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:19:33 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:19:33 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:19:34 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:19:34 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:19:35 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:19:35 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:19:35 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:19:35 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:19:35 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:19:35 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:19:35 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:19:35 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:19:35 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:19:35 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:19:35 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:19:35 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:19:35 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:19:35 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:19:35 PM root ERROR - [Testing] ERROR: 'Churn' was misplaced
+06/11/23 09:19:35 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:22:40 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:22:40 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:22:40 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:22:40 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:22:40 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:22:40 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:22:40 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:22:40 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:22:40 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:22:41 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:22:41 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:22:42 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:22:42 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:22:42 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:22:42 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:22:43 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:22:43 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:22:43 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:22:44 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:22:44 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:22:45 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:22:45 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:22:45 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:22:45 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:22:45 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:22:45 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:22:45 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:22:45 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:22:45 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:22:45 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:22:45 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:22:45 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:22:45 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:22:45 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:23:30 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:23:30 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:23:30 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:23:30 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:23:30 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:23:30 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:23:30 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:23:30 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:23:31 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:23:31 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:23:31 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:23:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:23:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:23:32 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:23:32 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:23:33 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:23:33 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:23:33 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:23:34 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:23:34 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:23:35 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:23:35 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:23:35 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:23:35 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:23:35 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:23:35 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:23:35 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:23:35 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:23:35 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:23:35 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:23:35 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:23:35 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:23:35 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:23:35 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:25:15 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:25:15 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:25:15 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:25:15 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:25:15 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:25:15 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:25:15 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:25:15 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:25:15 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:25:16 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:25:16 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:25:16 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:25:17 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:25:17 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:25:17 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:25:17 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:25:18 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:25:18 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:25:18 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:25:19 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:25:20 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:25:20 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:25:20 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:25:20 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:25:20 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:25:20 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:25:20 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:25:20 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:25:20 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:25:20 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:25:20 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:25:20 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:25:20 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:25:20 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:26:00 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:26:00 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:26:00 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:00 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:00 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:26:00 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:26:00 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:26:00 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:26:00 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:00 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:26:00 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:26:01 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:26:01 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:26:02 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:26:02 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:26:02 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:26:02 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:26:03 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:26:03 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:26:04 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:26:05 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:26:05 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:26:05 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:26:05 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:26:05 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:26:05 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:26:05 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:26:05 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:05 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:26:05 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:26:05 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:26:05 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:26:05 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:26:05 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:26:05 PM root ERROR - [Testing] ERROR: 'Churn' was misplaced
+06/11/23 09:26:05 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:26:42 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:26:42 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:26:43 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:43 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:43 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:26:43 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:26:43 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:26:43 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:26:43 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:43 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:26:43 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:26:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:26:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:26:44 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:26:45 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:26:45 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:26:45 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:26:45 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:26:46 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:26:47 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:26:47 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:26:47 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:26:47 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:26:47 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:26:47 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:26:47 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:26:47 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:26:48 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:48 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:26:48 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:26:48 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:26:48 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:26:48 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:26:48 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:26:48 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:26:48 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:26:48 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:26:48 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:26:48 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:26:48 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:26:48 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:26:48 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:26:48 PM root ERROR - [Testing] ERROR: 'Churn' was misplaced
+06/11/23 09:26:48 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:27:20 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:27:20 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:27:20 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:27:20 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:27:20 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:27:20 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:27:20 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:27:20 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:27:20 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:27:21 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:27:21 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:27:22 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:27:22 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:27:22 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:27:23 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:27:23 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:27:23 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:27:23 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:27:24 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:27:25 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:27:26 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:27:26 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:27:26 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:27:26 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:27:26 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:27:26 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:27:26 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:27:26 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:27:26 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:27:26 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:27:26 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:27:26 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:27:26 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:27:26 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:27:26 PM root ERROR - [Testing] ERROR: 'Churn' was misplaced
+06/11/23 09:27:26 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:28:16 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:28:16 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:28:16 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:16 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:16 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:28:16 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:28:16 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:28:16 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:28:16 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:17 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:28:17 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:28:17 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:28:18 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:28:18 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:28:18 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:28:19 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:28:19 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:28:19 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:28:20 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:28:20 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:28:21 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:28:21 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:28:21 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:28:21 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:28:21 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:28:21 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:28:21 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:28:21 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:21 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:28:21 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:28:21 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:28:21 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:28:21 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:21 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:28:21 PM root ERROR - [Testing] ERROR: 'Churn' was misplaced
+06/11/23 09:28:21 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:28:38 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:28:38 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:28:38 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:38 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:38 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:28:38 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:28:38 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:28:38 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:28:38 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:38 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:28:39 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:28:39 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:28:39 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:28:40 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:28:40 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:28:40 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:28:40 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:28:41 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:28:41 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:28:42 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:28:43 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:28:43 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:28:43 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:28:43 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:28:43 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:28:43 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:28:43 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:28:43 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:43 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:28:43 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:28:43 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:28:43 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:28:43 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:28:43 PM root INFO - [Testing] SUCCESS: 'Churn' was correctly placed
+06/11/23 09:28:43 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:28:54 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:28:54 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:28:54 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:54 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:54 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:28:54 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:28:54 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:28:54 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:28:54 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:54 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:28:55 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:28:55 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:28:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:28:56 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:28:56 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:28:56 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:28:56 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:28:57 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:28:57 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:28:58 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:28:59 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:28:59 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:28:59 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:28:59 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:28:59 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:28:59 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:28:59 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:28:59 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:28:59 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:28:59 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:28:59 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:28:59 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:28:59 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:28:59 PM root INFO - [Testing] SUCCESS: 'Churn' was correctly placed
+06/11/23 09:28:59 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:29:39 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:29:39 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:29:39 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:29:39 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:29:39 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:29:39 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:29:39 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:29:39 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:29:39 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:29:40 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:29:40 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:29:40 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:29:41 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:29:41 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:29:41 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:29:41 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:29:41 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:29:42 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:29:42 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:29:43 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:29:44 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:29:44 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:29:44 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:29:44 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:29:44 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:29:44 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:29:44 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:29:44 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:29:44 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:29:44 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:29:44 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:29:44 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:29:44 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:29:44 PM root INFO - [Testing] SUCCESS: 'Churn' was correctly placed
+06/11/23 09:29:44 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:32:22 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:32:22 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:32:22 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:32:22 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:32:22 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:32:22 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:32:22 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:32:22 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:32:22 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:32:23 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:32:23 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:32:23 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:32:24 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:32:24 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:32:24 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:32:24 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:32:25 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:32:25 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:32:26 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:32:26 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:32:27 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:32:27 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:32:27 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:32:27 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:32:27 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:32:27 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:32:27 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:32:27 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:32:27 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:32:27 PM root INFO - x_train data shape: (7088, 21)
+06/11/23 09:32:27 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:32:27 PM root INFO - x_test data shape: (3039, 21)
+06/11/23 09:32:27 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:32:27 PM root INFO - [Testing] SUCCESS: 'Churn' was correctly placed
+06/11/23 09:32:27 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:33:07 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:33:07 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:33:07 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:33:07 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:33:07 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:33:07 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:33:07 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:33:07 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:33:07 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:33:08 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:33:08 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:33:08 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:33:09 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:33:09 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:33:09 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:33:09 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:33:10 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:33:10 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:33:11 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:33:11 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:33:12 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:33:12 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:33:12 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:33:12 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:33:12 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:33:12 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:33:12 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:33:12 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:33:12 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:33:12 PM root INFO - x_train data shape: (7088, 21)
+06/11/23 09:33:12 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:33:12 PM root INFO - x_test data shape: (3039, 21)
+06/11/23 09:33:12 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:33:12 PM root INFO - [Testing] SUCCESS: 'Churn' was correctly placed
+06/11/23 09:33:12 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:50:47 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:50:47 PM root INFO - [### ---| Testing import_data method |--- ###]
+06/11/23 09:50:47 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:50:47 PM root INFO - [Testing] SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:50:47 PM root INFO - [Testing] SUCCESS: method has a valid DataFrame argument <class 'pandas.core.frame.DataFrame'>
+06/11/23 09:50:47 PM root INFO - [Testing] SUCCESS: Churn column is found
+06/11/23 09:50:47 PM root INFO - [### Completed: import_data method  ###]
+06/11/23 09:50:47 PM root INFO - [### ---| Testing test_eda method |--- ###]
+06/11/23 09:50:47 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:50:47 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:50:48 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:50:48 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:50:48 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:50:49 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:50:49 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:50:49 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:50:49 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:50:50 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:50:50 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:50:51 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:50:52 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: All provided columns names are valid
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: EDA images folder existed
+06/11/23 09:50:52 PM root INFO - [Testing perform_eda] SUCCESS: EDA resulted folder existed
+06/11/23 09:50:52 PM root INFO - [### Completed: test_eda method  ###]
+06/11/23 09:50:52 PM root INFO - [### ---| Testing test_encoder_helper method |--- ###]
+06/11/23 09:50:52 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: all provided column names in "categorical_columns" were of type String
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: all provided column names in "response" were of type String
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: "categorical_columns" and "response" lists were matched
+06/11/23 09:50:52 PM root INFO - [### Completed: test_encoder_helper method ###]
+06/11/23 09:50:52 PM root INFO - [### ---| Testing test_perform_feature_engineering method |--- ###]
+06/11/23 09:50:52 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:50:52 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:50:52 PM root INFO - x_train data shape: (7088, 21)
+06/11/23 09:50:52 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:50:52 PM root INFO - x_test data shape: (3039, 21)
+06/11/23 09:50:52 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: required culomns were dropped
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: 'Churn' was correctly placed
+06/11/23 09:50:52 PM root INFO - [### Completed: test_perform_feature_engineering method ###]
+06/11/23 09:50:52 PM root INFO - [### ---| Testing test_train_models method |--- ###]
+06/11/23 09:50:52 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/11/23 09:50:52 PM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/11/23 09:50:52 PM root INFO - [Testing] SUCCESS: the function is working as expected
+06/11/23 09:50:52 PM root INFO - [### Completed: test_train_models method ###]
+06/11/23 09:51:52 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 09:51:52 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 09:51:52 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/11/23 09:51:52 PM root INFO - SUCCESS: encoder_helper
+06/11/23 09:51:53 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 09:51:53 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 09:51:53 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:51:54 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 09:51:54 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 09:51:54 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 09:51:55 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 09:51:55 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 09:51:55 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 09:51:56 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 09:51:57 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 09:51:58 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 09:51:58 PM root INFO - SUCCESS: Performing EDA operations
+06/11/23 09:51:58 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 09:51:58 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 09:51:58 PM root INFO - y_train data shape: (7088,)
+06/11/23 09:51:58 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 09:51:58 PM root INFO - y_test data shape: (3039,)
+06/11/23 09:51:58 PM root INFO - SUCCESS: Performing feature engineering operations
+06/11/23 09:52:00 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 1.0 - 1.0
+06/11/23 09:52:00 PM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/11/23 09:52:00 PM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/11/23 09:52:00 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/11/23 09:52:00 PM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/11/23 09:52:00 PM root INFO - SUCCESS: Trained Random Forest Classifier
+06/11/23 09:52:01 PM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/11/23 09:52:02 PM root INFO - SUCESS: Computing feature importances for Random Forest model
+06/11/23 10:03:57 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/11/23 10:03:57 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/11/23 10:03:57 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/11/23 10:03:57 PM root INFO - SUCCESS: encoder_helper
+06/11/23 10:03:57 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/11/23 10:03:58 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/11/23 10:03:58 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 10:03:58 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/11/23 10:03:59 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/11/23 10:03:59 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/11/23 10:03:59 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/11/23 10:03:59 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/11/23 10:04:00 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/11/23 10:04:00 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/11/23 10:04:01 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/11/23 10:04:02 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/11/23 10:04:02 PM root INFO - SUCCESS: Performing EDA operations
+06/11/23 10:04:02 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/11/23 10:04:02 PM root INFO - x_train data shape: (7088, 22)
+06/11/23 10:04:02 PM root INFO - y_train data shape: (7088,)
+06/11/23 10:04:02 PM root INFO - x_test data shape: (3039, 22)
+06/11/23 10:04:02 PM root INFO - y_test data shape: (3039,)
+06/11/23 10:04:02 PM root INFO - SUCCESS: Performing feature engineering operations
+06/11/23 10:04:04 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 1.0 - 1.0
+06/11/23 10:04:04 PM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/11/23 10:04:04 PM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/11/23 10:04:04 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/11/23 10:04:04 PM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/11/23 10:04:04 PM root INFO - SUCCESS: Trained Random Forest Classifier
+06/11/23 10:04:05 PM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/11/23 10:04:06 PM root INFO - SUCESS: Computing feature importances for Random Forest model
+06/12/23 06:09:15 AM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 06:09:15 AM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 06:09:15 AM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 06:09:15 AM root INFO - SUCCESS: encoder_helper
+06/12/23 06:09:15 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/12/23 06:09:15 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/12/23 06:09:16 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 06:09:16 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 06:09:16 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/12/23 06:09:17 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/12/23 06:09:17 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/12/23 06:09:17 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/12/23 06:09:17 AM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/12/23 06:09:18 AM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/12/23 06:09:18 AM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/12/23 06:09:20 AM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/12/23 06:09:20 AM root INFO - SUCCESS: Performing EDA operations
+06/12/23 06:09:20 AM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 06:09:20 AM root INFO - x_train data shape: (7088, 22)
+06/12/23 06:09:20 AM root INFO - y_train data shape: (7088,)
+06/12/23 06:09:20 AM root INFO - x_test data shape: (3039, 22)
+06/12/23 06:09:20 AM root INFO - y_test data shape: (3039,)
+06/12/23 06:09:20 AM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 06:09:21 AM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 1.0 - 1.0
+06/12/23 06:09:21 AM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/12/23 06:09:21 AM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/12/23 06:09:22 AM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/12/23 06:09:22 AM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/12/23 06:09:22 AM root INFO - SUCCESS: Trained Random Forest Classifier
+06/12/23 06:09:23 AM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/12/23 06:09:24 AM root INFO - SUCESS: Computing feature importances for Random Forest model
+06/12/23 06:14:11 AM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 06:14:11 AM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 06:14:11 AM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 06:14:11 AM root INFO - SUCCESS: encoder_helper
+06/12/23 06:14:12 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/12/23 06:14:12 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/12/23 06:14:12 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 06:14:13 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 06:14:13 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/12/23 06:14:13 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/12/23 06:14:13 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/12/23 06:14:14 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/12/23 06:14:14 AM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/12/23 06:14:14 AM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/12/23 06:14:15 AM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/12/23 06:14:16 AM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/12/23 06:14:16 AM root INFO - SUCCESS: Performing EDA operations
+06/12/23 06:14:16 AM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 06:14:16 AM root INFO - x_train data shape: (9114, 22)
+06/12/23 06:14:16 AM root INFO - y_train data shape: (9114,)
+06/12/23 06:14:16 AM root INFO - x_test data shape: (1013, 22)
+06/12/23 06:14:16 AM root INFO - y_test data shape: (1013,)
+06/12/23 06:14:16 AM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 06:14:18 AM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 1.0 - 1.0
+06/12/23 06:14:18 AM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/12/23 06:14:18 AM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/12/23 06:14:19 AM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/12/23 06:14:19 AM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/12/23 06:14:19 AM root INFO - SUCCESS: Trained Random Forest Classifier
+06/12/23 06:14:19 AM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/12/23 06:14:20 AM root INFO - SUCESS: Computing feature importances for Random Forest model
+06/12/23 06:19:33 AM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 06:19:34 AM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 06:19:34 AM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 06:19:34 AM root INFO - SUCCESS: encoder_helper
+06/12/23 06:19:34 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/12/23 06:19:34 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/12/23 06:19:35 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 06:19:35 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 06:19:35 AM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/12/23 06:19:36 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/12/23 06:19:36 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/12/23 06:19:36 AM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/12/23 06:19:36 AM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/12/23 06:19:37 AM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/12/23 06:19:38 AM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/12/23 06:19:39 AM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/12/23 06:19:39 AM root INFO - SUCCESS: Performing EDA operations
+06/12/23 06:19:39 AM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 06:19:39 AM root INFO - x_train data shape: (8101, 22)
+06/12/23 06:19:39 AM root INFO - y_train data shape: (8101,)
+06/12/23 06:19:39 AM root INFO - x_test data shape: (2026, 22)
+06/12/23 06:19:39 AM root INFO - y_test data shape: (2026,)
+06/12/23 06:19:39 AM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 05:13:38 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 05:13:38 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 05:13:38 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 05:13:38 PM root INFO - SUCCESS: encoder_helper
+06/12/23 05:13:38 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 05:13:38 PM root INFO - x_train data shape: (8101, 22)
+06/12/23 05:13:38 PM root INFO - y_train data shape: (8101,)
+06/12/23 05:13:38 PM root INFO - x_test data shape: (2026, 22)
+06/12/23 05:13:38 PM root INFO - y_test data shape: (2026,)
+06/12/23 05:13:38 PM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 05:14:23 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 05:14:23 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 05:14:23 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 05:14:23 PM root INFO - SUCCESS: encoder_helper
+06/12/23 05:14:23 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 05:14:23 PM root INFO - x_train data shape: (8101, 22)
+06/12/23 05:14:23 PM root INFO - y_train data shape: (8101,)
+06/12/23 05:14:23 PM root INFO - x_test data shape: (2026, 22)
+06/12/23 05:14:23 PM root INFO - y_test data shape: (2026,)
+06/12/23 05:14:23 PM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 05:16:28 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 05:16:28 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 05:16:28 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 05:16:28 PM root INFO - SUCCESS: encoder_helper
+06/12/23 05:16:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/12/23 05:16:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/12/23 05:16:29 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 05:16:30 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 05:16:30 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/12/23 05:16:30 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/12/23 05:16:30 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/12/23 05:16:30 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/12/23 05:16:31 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/12/23 05:16:31 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/12/23 05:16:32 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/12/23 05:16:33 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/12/23 05:16:33 PM root INFO - SUCCESS: Performing EDA operations
+06/12/23 05:16:33 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 05:16:33 PM root INFO - x_train data shape: (8101, 20)
+06/12/23 05:16:33 PM root INFO - y_train data shape: (8101,)
+06/12/23 05:16:33 PM root INFO - x_test data shape: (2026, 20)
+06/12/23 05:16:33 PM root INFO - y_test data shape: (2026,)
+06/12/23 05:16:33 PM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 05:16:34 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 1.0 - 1.0
+06/12/23 05:16:34 PM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/12/23 05:16:34 PM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/12/23 05:16:35 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/12/23 05:16:35 PM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/12/23 05:16:35 PM root INFO - SUCCESS: Trained Random Forest Classifier
+06/12/23 05:16:35 PM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/12/23 05:16:39 PM root INFO - SUCESS: Computing feature importances for Random Forest model
+06/12/23 05:29:04 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 05:29:04 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 05:29:04 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 05:29:04 PM root INFO - SUCCESS: encoder_helper
+06/12/23 05:29:05 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/12/23 05:29:05 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/12/23 05:29:05 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 05:29:06 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 05:29:06 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/12/23 05:29:06 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/12/23 05:29:06 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/12/23 05:29:07 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/12/23 05:29:07 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/12/23 05:29:08 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/12/23 05:29:08 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/12/23 05:29:09 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/12/23 05:29:09 PM root INFO - SUCCESS: Performing EDA operations
+06/12/23 05:29:09 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 05:29:09 PM root INFO - x_train data shape: (8101, 20)
+06/12/23 05:29:09 PM root INFO - y_train data shape: (8101,)
+06/12/23 05:29:09 PM root INFO - x_test data shape: (2026, 20)
+06/12/23 05:29:09 PM root INFO - y_test data shape: (2026,)
+06/12/23 05:29:09 PM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 05:29:10 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 1.0 - 1.0
+06/12/23 05:29:10 PM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/12/23 05:29:10 PM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/12/23 05:29:11 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 1.0 - 1.0
+06/12/23 05:29:11 PM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/12/23 05:29:11 PM root INFO - SUCCESS: Trained Random Forest Classifier
+06/12/23 05:29:11 PM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/12/23 05:29:15 PM root INFO - SUCESS: Computing feature importances for Random Forest model
+06/12/23 05:30:14 PM root INFO - SUCCESS: Creating logging file named 'churn_library.log'
+06/12/23 05:30:14 PM root INFO - SUCCESS: file './data/bank_data.csv' has been loaded successfully
+06/12/23 05:30:14 PM root INFO - SUCCESS: Importing original dataset into dataframe
+06/12/23 05:30:14 PM root INFO - SUCCESS: encoder_helper
+06/12/23 05:30:14 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_age_distribution.png
+06/12/23 05:30:14 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_customer_marital_status_distribution.png
+06/12/23 05:30:15 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 05:30:15 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_total_trans_count_distribution.png
+06/12/23 05:30:16 PM root INFO - SUCCESS: EDA operation - ploting histogram plot titled: hist_marital_status_vs_total_trans_count_distribution.png
+06/12/23 05:30:16 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_churn_distribution.png
+06/12/23 05:30:16 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_education_level_distribution.png
+06/12/23 05:30:16 PM root INFO - SUCCESS: EDA operation - ploting count plot titled: count_income_category_distribution.png
+06/12/23 05:30:17 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_cnt_vs_gender.png
+06/12/23 05:30:17 PM root INFO - SUCCESS: EDA operation - Plot: box_marital_status_vs_total_trans_amt_vs_gender.png
+06/12/23 05:30:18 PM root INFO - SUCCESS: EDA operation - Plot: box_joint_total_trans_amt_vs_total_trans_cnt.png
+06/12/23 05:30:20 PM root INFO - SUCCESS: EDA operation - ploting heatmap plot titled: heatmap_triangle_corr.png
+06/12/23 05:30:20 PM root INFO - SUCCESS: Performing EDA operations
+06/12/23 05:30:20 PM root INFO - SUCCESS: Preparing modeling data (X) and prediction data (y)
+06/12/23 05:30:20 PM root INFO - x_train data shape: (8101, 19)
+06/12/23 05:30:20 PM root INFO - y_train data shape: (8101,)
+06/12/23 05:30:20 PM root INFO - x_test data shape: (2026, 19)
+06/12/23 05:30:20 PM root INFO - y_test data shape: (2026,)
+06/12/23 05:30:20 PM root INFO - SUCCESS: Performing feature engineering operations
+06/12/23 05:30:20 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for LogisticRegression: 0.7306508434307115 - 0.7010500610500611
+06/12/23 05:30:20 PM root INFO - SUCCESS: Exporting trained model 'LogisticRegression.pkl'
+06/12/23 05:30:20 PM root INFO - SUCCESS: Trained Logistic Regression Classifier
+06/12/23 05:30:21 PM root INFO - SUCCESS: Calculating reuiqred AUC scorse for RandomForestClassifier: 0.9939454704303898 - 0.8971980283091394
+06/12/23 05:30:21 PM root INFO - SUCCESS: Exporting trained model 'RandomForestClassifier.pkl'
+06/12/23 05:30:21 PM root INFO - SUCCESS: Trained Random Forest Classifier
+06/12/23 05:30:22 PM root INFO - SUCCESS: Plotting ROC Curve fro developed models
+06/12/23 05:30:43 PM root INFO - SUCESS: Computing feature importances for Random Forest model
