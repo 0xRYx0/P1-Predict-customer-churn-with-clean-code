@@ -6,7 +6,7 @@ The first project of [ML DevOps Engineer Nanodegree](https://www.udacity.com/cou
 Overview of the files and data present in the root directory. 
 
 ```
-📦 P3-ML-model-for-cloud-application-with-FastAPI
+📦 P1-Predict-customer-churn-with-clean-code
  ┣ 📂 data                                # ~~~[ Data folder ]~~~
  ┃  ┗ 📜 bank_data.csv                    # Dataset to be processed
  ┣ 📂 images                              # ~~~[ Images folder ]~~~
